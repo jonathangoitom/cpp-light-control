@@ -83,10 +83,24 @@ CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/Documents/Repos/cpp-light-control/src/BlinkerState.cpp -o CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.s
 
+CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o: CMakeFiles/cpp-light-control.dir/flags.make
+CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o: /home/jonathan/Documents/Repos/cpp-light-control/src/ComingHomeState.cpp
+CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o: CMakeFiles/cpp-light-control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o -MF CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o.d -o CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o -c /home/jonathan/Documents/Repos/cpp-light-control/src/ComingHomeState.cpp
+
+CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/Documents/Repos/cpp-light-control/src/ComingHomeState.cpp > CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.i
+
+CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/Documents/Repos/cpp-light-control/src/ComingHomeState.cpp -o CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.s
+
 CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o: CMakeFiles/cpp-light-control.dir/flags.make
 CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o: /home/jonathan/Documents/Repos/cpp-light-control/src/FSM.cpp
 CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o: CMakeFiles/cpp-light-control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o -MF CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o.d -o CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o -c /home/jonathan/Documents/Repos/cpp-light-control/src/FSM.cpp
 
 CMakeFiles/cpp-light-control.dir/src/FSM.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/cpp-light-control.dir/src/FSM.cpp.s: cmake_force
 CMakeFiles/cpp-light-control.dir/src/LED.cpp.o: CMakeFiles/cpp-light-control.dir/flags.make
 CMakeFiles/cpp-light-control.dir/src/LED.cpp.o: /home/jonathan/Documents/Repos/cpp-light-control/src/LED.cpp
 CMakeFiles/cpp-light-control.dir/src/LED.cpp.o: CMakeFiles/cpp-light-control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp-light-control.dir/src/LED.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp-light-control.dir/src/LED.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp-light-control.dir/src/LED.cpp.o -MF CMakeFiles/cpp-light-control.dir/src/LED.cpp.o.d -o CMakeFiles/cpp-light-control.dir/src/LED.cpp.o -c /home/jonathan/Documents/Repos/cpp-light-control/src/LED.cpp
 
 CMakeFiles/cpp-light-control.dir/src/LED.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/cpp-light-control.dir/src/LED.cpp.s: cmake_force
 CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o: CMakeFiles/cpp-light-control.dir/flags.make
 CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o: /home/jonathan/Documents/Repos/cpp-light-control/src/NormalState.cpp
 CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o: CMakeFiles/cpp-light-control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o -MF CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o.d -o CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o -c /home/jonathan/Documents/Repos/cpp-light-control/src/NormalState.cpp
 
 CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.s: cmake_force
 CMakeFiles/cpp-light-control.dir/src/State.cpp.o: CMakeFiles/cpp-light-control.dir/flags.make
 CMakeFiles/cpp-light-control.dir/src/State.cpp.o: /home/jonathan/Documents/Repos/cpp-light-control/src/State.cpp
 CMakeFiles/cpp-light-control.dir/src/State.cpp.o: CMakeFiles/cpp-light-control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp-light-control.dir/src/State.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp-light-control.dir/src/State.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp-light-control.dir/src/State.cpp.o -MF CMakeFiles/cpp-light-control.dir/src/State.cpp.o.d -o CMakeFiles/cpp-light-control.dir/src/State.cpp.o -c /home/jonathan/Documents/Repos/cpp-light-control/src/State.cpp
 
 CMakeFiles/cpp-light-control.dir/src/State.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/cpp-light-control.dir/src/State.cpp.s: cmake_force
 CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o: CMakeFiles/cpp-light-control.dir/flags.make
 CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o: /home/jonathan/Documents/Repos/cpp-light-control/src/Timer.cpp
 CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o: CMakeFiles/cpp-light-control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o -MF CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o.d -o CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o -c /home/jonathan/Documents/Repos/cpp-light-control/src/Timer.cpp
 
 CMakeFiles/cpp-light-control.dir/src/Timer.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/cpp-light-control.dir/src/Timer.cpp.s: cmake_force
 CMakeFiles/cpp-light-control.dir/src/main.cpp.o: CMakeFiles/cpp-light-control.dir/flags.make
 CMakeFiles/cpp-light-control.dir/src/main.cpp.o: /home/jonathan/Documents/Repos/cpp-light-control/src/main.cpp
 CMakeFiles/cpp-light-control.dir/src/main.cpp.o: CMakeFiles/cpp-light-control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp-light-control.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp-light-control.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp-light-control.dir/src/main.cpp.o -MF CMakeFiles/cpp-light-control.dir/src/main.cpp.o.d -o CMakeFiles/cpp-light-control.dir/src/main.cpp.o -c /home/jonathan/Documents/Repos/cpp-light-control/src/main.cpp
 
 CMakeFiles/cpp-light-control.dir/src/main.cpp.i: cmake_force
@@ -170,6 +184,7 @@ CMakeFiles/cpp-light-control.dir/src/main.cpp.s: cmake_force
 # Object files for target cpp-light-control
 cpp__light__control_OBJECTS = \
 "CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.o" \
+"CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o" \
 "CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o" \
 "CMakeFiles/cpp-light-control.dir/src/LED.cpp.o" \
 "CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o" \
@@ -181,6 +196,7 @@ cpp__light__control_OBJECTS = \
 cpp__light__control_EXTERNAL_OBJECTS =
 
 cpp-light-control: CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.o
+cpp-light-control: CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o
 cpp-light-control: CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o
 cpp-light-control: CMakeFiles/cpp-light-control.dir/src/LED.cpp.o
 cpp-light-control: CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o
@@ -189,7 +205,7 @@ cpp-light-control: CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o
 cpp-light-control: CMakeFiles/cpp-light-control.dir/src/main.cpp.o
 cpp-light-control: CMakeFiles/cpp-light-control.dir/build.make
 cpp-light-control: CMakeFiles/cpp-light-control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cpp-light-control"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cpp-light-control"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp-light-control.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,7 @@
 #include "NormalState.hpp"
 #include "FSM.hpp"
-#include "BlinkerState.hpp"  // Add this line
+#include "BlinkerState.hpp"
+#include "ComingHomeState.hpp"
 #include <iostream>
 
 void NormalState::enter(FSM* fsm) {
@@ -13,6 +14,9 @@ void NormalState::handleInput(FSM* fsm, char input) {
     if (input == 'b') {
         std::cout << "[NormalState] Switching to BlinkerState...\n";
         fsm->setState(new BlinkerState());
+    } else if (input == 'c') {
+        std::cout << "[NormalState] Switching to ComingHomeState...\n";
+        fsm->setState(new ComingHomeState());
     }
 }
 

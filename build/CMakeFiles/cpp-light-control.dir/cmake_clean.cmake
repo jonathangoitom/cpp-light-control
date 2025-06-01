@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.o"
   "CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.o.d"
+  "CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o"
+  "CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o.d"
   "CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o"
   "CMakeFiles/cpp-light-control.dir/src/FSM.cpp.o.d"
   "CMakeFiles/cpp-light-control.dir/src/LED.cpp.o"

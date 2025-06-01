@@ -153,6 +153,30 @@ src/BlinkerState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/BlinkerState.cpp.s
 .PHONY : src/BlinkerState.cpp.s
 
+src/ComingHomeState.o: src/ComingHomeState.cpp.o
+.PHONY : src/ComingHomeState.o
+
+# target to build an object file
+src/ComingHomeState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.o
+.PHONY : src/ComingHomeState.cpp.o
+
+src/ComingHomeState.i: src/ComingHomeState.cpp.i
+.PHONY : src/ComingHomeState.i
+
+# target to preprocess a source file
+src/ComingHomeState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.i
+.PHONY : src/ComingHomeState.cpp.i
+
+src/ComingHomeState.s: src/ComingHomeState.cpp.s
+.PHONY : src/ComingHomeState.s
+
+# target to generate assembly for a file
+src/ComingHomeState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/ComingHomeState.cpp.s
+.PHONY : src/ComingHomeState.cpp.s
+
 src/FSM.o: src/FSM.cpp.o
 .PHONY : src/FSM.o
 
@@ -309,6 +333,9 @@ help:
 	@echo "... src/BlinkerState.o"
 	@echo "... src/BlinkerState.i"
 	@echo "... src/BlinkerState.s"
+	@echo "... src/ComingHomeState.o"
+	@echo "... src/ComingHomeState.i"
+	@echo "... src/ComingHomeState.s"
 	@echo "... src/FSM.o"
 	@echo "... src/FSM.i"
 	@echo "... src/FSM.s"

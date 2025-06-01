@@ -25,13 +25,17 @@ int main() {
 
     // Input loop in main thread
     while (true) {
-        std::cout << "Input (b = blinker, n = normal, q = quit): ";
+        std::cout << "Input (b = blinker, c = coming-home, n = normal, q = quit): ";
         char input;
         std::cin >> input;
 
         if (input == 'q') {
             running = false; // signal thread to stop
             break;
+        }
+
+        if(input == 'c') {
+            fsm.handleInput('c');
         }
 
         fsm.handleInput(input);
