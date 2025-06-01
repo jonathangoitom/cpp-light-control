@@ -25,7 +25,7 @@ int main() {
 
     // Input loop in main thread
     while (true) {
-        std::cout << "Input (b = blinker, c = coming-home, n = normal, q = quit): ";
+        std::cout << "Input (b = blinker, c = coming-home, w = warning, n = normal, q = quit): ";
         char input;
         std::cin >> input;
 
