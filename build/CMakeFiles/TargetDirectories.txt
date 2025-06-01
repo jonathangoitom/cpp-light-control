@@ -1,0 +1,3 @@
+/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles/cpp-light-control.dir
+/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles/edit_cache.dir
+/home/jonathan/Documents/Repos/cpp-light-control/build/CMakeFiles/rebuild_cache.dir
