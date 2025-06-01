@@ -154,6 +154,7 @@ CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /home/jonathan/Documents/Repos/cpp-light-control/src/FSM.hpp \
  /home/jonathan/Documents/Repos/cpp-light-control/src/BlinkerState.hpp \
+ /home/jonathan/Documents/Repos/cpp-light-control/src/LED.hpp \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -164,4 +165,5 @@ CMakeFiles/cpp-light-control.dir/src/NormalState.cpp.o: \
  /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/jonathan/Documents/Repos/cpp-light-control/src/ComingHomeState.hpp
+ /home/jonathan/Documents/Repos/cpp-light-control/src/ComingHomeState.hpp \
+ /home/jonathan/Documents/Repos/cpp-light-control/src/WarningState.hpp

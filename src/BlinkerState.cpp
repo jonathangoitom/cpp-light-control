@@ -3,10 +3,13 @@
 #include "NormalState.hpp"
 #include <iostream>
 
+BlinkerState::BlinkerState() : blinkerLed("Blinker") {}
+
 void BlinkerState::enter(FSM* fsm) {
     std::cout << "[BlinkerState] Entering: Starting blinker...\n";
     lastToggle = std::chrono::steady_clock::now();
     ledOn = false;
+    blinkerLed.off();
 }
 
 void BlinkerState::handleInput(FSM* fsm, char input) {
@@ -21,11 +24,9 @@ void BlinkerState::update(FSM* fsm) {
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(now - lastToggle);
 
     if (duration.count() >= 500) {
-        ledOn = !ledOn;
-        std::cout << "[BlinkerState] LED " << (ledOn ? "ON" : "OFF") << "\n";
+        blinkerLed.toggle();
         lastToggle = now;
     }
 
     // Simulate time passing in terminal version
-    std::this_thread::sleep_for(std::chrono::milliseconds(100));
 }

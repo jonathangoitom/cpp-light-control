@@ -297,6 +297,30 @@ src/Timer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/Timer.cpp.s
 .PHONY : src/Timer.cpp.s
 
+src/WarningState.o: src/WarningState.cpp.o
+.PHONY : src/WarningState.o
+
+# target to build an object file
+src/WarningState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/WarningState.cpp.o
+.PHONY : src/WarningState.cpp.o
+
+src/WarningState.i: src/WarningState.cpp.i
+.PHONY : src/WarningState.i
+
+# target to preprocess a source file
+src/WarningState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/WarningState.cpp.i
+.PHONY : src/WarningState.cpp.i
+
+src/WarningState.s: src/WarningState.cpp.s
+.PHONY : src/WarningState.s
+
+# target to generate assembly for a file
+src/WarningState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp-light-control.dir/build.make CMakeFiles/cpp-light-control.dir/src/WarningState.cpp.s
+.PHONY : src/WarningState.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -351,6 +375,9 @@ help:
 	@echo "... src/Timer.o"
 	@echo "... src/Timer.i"
 	@echo "... src/Timer.s"
+	@echo "... src/WarningState.o"
+	@echo "... src/WarningState.i"
+	@echo "... src/WarningState.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

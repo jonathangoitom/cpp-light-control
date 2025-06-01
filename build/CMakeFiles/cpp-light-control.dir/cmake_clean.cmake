@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp-light-control.dir/src/State.cpp.o.d"
   "CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o"
   "CMakeFiles/cpp-light-control.dir/src/Timer.cpp.o.d"
+  "CMakeFiles/cpp-light-control.dir/src/WarningState.cpp.o"
+  "CMakeFiles/cpp-light-control.dir/src/WarningState.cpp.o.d"
   "CMakeFiles/cpp-light-control.dir/src/main.cpp.o"
   "CMakeFiles/cpp-light-control.dir/src/main.cpp.o.d"
   "cpp-light-control"

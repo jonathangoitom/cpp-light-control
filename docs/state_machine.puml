@@ -1,0 +1,12 @@
+@startuml
+[*] --> NormalState
+
+NormalState --> BlinkerState : b
+NormalState --> WarningState : w
+NormalState --> ComingHomeState : c
+
+BlinkerState --> NormalState : n
+WarningState --> NormalState : n
+ComingHomeState --> NormalState : after 10s or n
+
+@enduml

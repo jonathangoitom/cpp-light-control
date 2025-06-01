@@ -3,10 +3,16 @@
 #include "NormalState.hpp"
 #include <iostream>
 
+
+WarningState::WarningState() 
+    : leftLed("Left"), rightLed("Right") {}
+
 void WarningState::enter(FSM* fsm) {
     std::cout << "[WarningState] Entering Hazard Lights ON\n";
     lastToggle = std::chrono::steady_clock::now();
-    ledOn = false;
+    ledsOn = false;
+    leftLed.off();
+    rightLed.off();
 }
 
 void WarningState::handleInput(FSM* fsm, char input) {
@@ -21,8 +27,14 @@ void WarningState::update(FSM* fsm) {
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(now - lastToggle);
 
     if (duration.count() >= 500) {
-        ledOn = !ledOn;
-        std::cout << "[WarningState] HAZARD LEDs " << (ledOn ? "ON" : "OFF") << "\n";
+        ledsOn = !ledsOn;
+        if (ledsOn) {
+            leftLed.on();
+            rightLed.on();
+        } else {
+            leftLed.off();
+            rightLed.off();
+        }
         lastToggle = now;
     }
 }
